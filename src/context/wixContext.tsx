@@ -2,7 +2,7 @@
 
 import { createClient, OAuthStrategy } from "@wix/sdk";
 import {products, collections} from "@wix/stores"
-import {products, collections} from "@wix/stores"
+
 const myWixClient = createClient({
   modules: {
     products,
